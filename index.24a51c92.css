@@ -1876,6 +1876,9 @@ footer #c-circle {
 #awwwards {
     display: none
 }
-
+/* Add this to increase width and height for .o-accent when used inline for the name */
+.o-accent[style*="display:inline"] {
+    padding: 0 9px;   /* Optional: Add some padding for better appearance */
+}
 
 /*# sourceMappingURL=index.24a51c92.css.map */
